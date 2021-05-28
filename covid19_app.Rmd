@@ -1,8 +1,11 @@
 ---
 title: "Is COVID-19 the desease of Rich countries"
+author: "by Raulin L. Cadet"
 output:
   flexdashboard::flex_dashboard:
+  flexdashboard::valueBox():
     orientation: rows
+    source_code: embed
     vertical_layout: fill
 runtime: shiny
 resource_files:
@@ -10,6 +13,7 @@ resource_files:
 ---
 
 ```{r setup, include=FALSE}
+
 library(flexdashboard)
 library(tidyverse)
 library(xts)
@@ -105,12 +109,35 @@ df_world<-inner_join(df_world,df,by="Country Code")%>%
 
 ```
 
+
+
+
+
 Socioeconomic {data-vertical_layout=fill}
 =====================================
 
 
+
 Column {.sidebar data-width=250}
 -----------------------------------------------------------------------
+
+
+```{r box}
+update_day<-covid_ts%>%
+  select(date)%>%table()
+
+```
+
+```{r}
+renderValueBox({
+
+  valueBox(
+  value=paste("Last update",(names(tail(update_day,1))))
+  )
+})
+```
+
+***
 
 To compare COVID-19 cases with a socioeconomic variable, select a variable bellow:
 
@@ -131,6 +158,7 @@ To compare COVID-19 cases with a socioeconomic variable, select a variable bello
 
 
 It is interesting in terms of information that can be visualized, when considering country groups, while comparing the rate of COVID-19 cases with socioeconomic variables. Considering country groups allow to verify if the rate of COVID-19 cases in a country can be explained by the group to which it belongs. To select a type of country group, click bellow:
+
 ```{r}
 selectInput("Groups", label = "Groups of countries", 
     choices =c("Income level","Region"), selected = "Region")

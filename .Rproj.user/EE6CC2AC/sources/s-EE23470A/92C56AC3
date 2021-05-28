@@ -3,7 +3,7 @@
     "path": "~/Raul/GitHub/Covid-19/covid19_app.Rmd",
     "project_path": "covid19_app.Rmd",
     "type": "r_markdown",
-    "hash": "4264181663",
+    "hash": "3077890577",
     "contents": "",
     "dirty": false,
     "created": 1622131141408.0,
@@ -11,15 +11,16 @@
     "relative_order": 1,
     "properties": {
         "tempName": "Untitled1",
-        "cursorPosition": "32,78",
-        "scrollLine": "13"
+        "cursorPosition": "2,9",
+        "scrollLine": "0",
+        "last_setup_crc32": "EE23470Af1b0ab7c"
     },
     "folds": "",
-    "lastKnownWriteTime": 1622131322,
+    "lastKnownWriteTime": 1622220172,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1622131322864,
+    "last_content_update": 1622220172797,
     "read_only": false,
     "read_only_alternatives": []
 }

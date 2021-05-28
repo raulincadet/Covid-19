@@ -1,0 +1,32 @@
+{
+    "id": "661A8A5A",
+    "path": null,
+    "project_path": null,
+    "type": "r_dataframe",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1622139742926.0,
+    "source_on_save": false,
+    "relative_order": 2,
+    "properties": {
+        "expression": "covid_ts",
+        "caption": "covid_ts",
+        "totalObservations": 91487,
+        "displayedObservations": 91487,
+        "variables": 59,
+        "cacheKey": "D2ECF5D6",
+        "object": "covid_ts",
+        "environment": "",
+        "contentUrl": "grid_resource/gridviewer.html?env=&obj=covid_ts&cache_key=D2ECF5D6&max_cols=50",
+        "preview": 0
+    },
+    "folds": "",
+    "lastKnownWriteTime": 2459013921659036276,
+    "encoding": "",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1622139742926,
+    "read_only": false,
+    "read_only_alternatives": []
+}

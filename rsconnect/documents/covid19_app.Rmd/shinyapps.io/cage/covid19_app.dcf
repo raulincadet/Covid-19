@@ -5,9 +5,9 @@ account: cage
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 4194635
-bundleId: 4647347
+bundleId: 4651794
 url: https://cage.shinyapps.io/covid19_app/
-when: 1622133218.1498
-lastSyncTime: 1622133218.1498
+when: 1622220354.7746
+lastSyncTime: 1622220354.7746
 asMultiple: FALSE
 asStatic: FALSE

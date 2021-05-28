@@ -1,0 +1,5 @@
+"0","update_day<-covid_ts%>%
+  select(date)%>%table()
+"
+"2","Error in select(., date) : object 'covid_ts' not found
+"

@@ -1,4 +1,4 @@
-# Covid-19
+# Shiny Dashboard of linkage between Covid-19 and socioeconomic conditions
  
 ![GitHub top language](https://img.shields.io/github/languages/top/raulincadet/Covid-19?style=plastic)
 ![GitHub repo size](https://img.shields.io/github/repo-size/raulincadet/Covid-19?color=green)
